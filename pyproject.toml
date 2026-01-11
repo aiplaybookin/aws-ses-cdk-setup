@@ -1,0 +1,14 @@
+[project]
+name = "aws-ses-cdk-setup"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aws-cdk-lib==2.234.0",
+    "boto3==1.42.24",
+    "constructs==10.4.4",
+    "python-dotenv==1.2.1",
+    "rich>=14.2.0",
+]
+
